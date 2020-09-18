@@ -1,5 +1,7 @@
 # competive_programing
-精進の記録
+
+精進の記録  
+以下の古い repo からマージしたもの  
 
 ## old repos
 
