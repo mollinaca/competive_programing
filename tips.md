@@ -6,6 +6,38 @@
 
 ## 標準入力
 
+* 1行で一つの文字列、数値
+```
+str=input()
+n=int(input())
+```
+
+* 1行で複数で個数が指定される文字列、数値
+```
+a, b = map(str, input().split())
+a, b = map(int, input().split())
+```
+
+* 1行で複数で個数がわからない、list で受け取る文字列、数値
+```
+l = list(input().split())
+l = list(map(int,input().split()))
+```
+
+* 何行か事前に分からない標準入力
+```
+import sys
+s = []
+for line in sys.stdin:
+    s.append (list(line.rstrip()))
+```
+
+stdinのEOFを検知して終了するため、CLI実行でキーボード入力だと入力の終了ができない（たぶん）。
+入力する文字列をテキストファイルに出力して、リダイレクトで実行する。
+```
+./input.py < input.txt
+```
+
 ## 標準出力
 
 
@@ -42,4 +74,3 @@ for i in l:
 ```
 
 defaultdict を使う
-
