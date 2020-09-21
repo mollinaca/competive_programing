@@ -130,7 +130,7 @@ d_sorted = sorted(d.items(), key=lambda x:x[0])
 * value でソート
 ```
 d = {'a':1, 'c':3, 'b':2, 'e':6, 'd':4}
-d_sorted = sorted(d.items(), key=lambda x:x[0])
+d_sorted = sorted(d.items(), key=lambda x:x[1])
  => [('suugaku', 60), ('kokugo', 65), ('butsuri', 80), ('kagaku', 90)]
 ```
 1要素がタプルのリストになることに注意
