@@ -134,3 +134,39 @@ d_sorted = sorted(d.items(), key=lambda x:x[1])
  => [('suugaku', 60), ('kokugo', 65), ('butsuri', 80), ('kagaku', 90)]
 ```
 1要素がタプルのリストになることに注意
+
+# HxWのグリッド
+
+## gridを取得する ※少なくともhが指定される
+```
+h,w = map(int,input().split())
+grid = [list(input()) for i in range(h)]
+```
+
+## すべてのマスを調査する
+
+```
+def grid_judge (y:int, x:int) -> bool:
+    if x == 0 and y == 0: # 左上
+        return True
+    elif x == w-1 and y == 0: # 右上
+        return True
+    elif x == 0 and y == h-1: # 左下
+        return True
+    elif x == w-1 and y == h-1: # 右下
+        return True
+    elif y == 0: # 一番上列の端っこ以外
+        return True
+    elif y == h-1: # 一番下列の端っこ以外
+        return True
+    elif x == 0: # 一番左列の端っこ以外
+        return True
+    elif x == w-1: # 一番右列の端っこ以外
+        return True
+    else: # それ以外
+        return True
+
+    return False
+```
+※ grid はグローバル変数として扱う
+
