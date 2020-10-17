@@ -135,6 +135,15 @@ d_sorted = sorted(d.items(), key=lambda x:x[1])
 ```
 1要素がタプルのリストになることに注意
 
+## 文字列の生成
+
+```
+import string
+print(string.ascii_letters)   # -> a-zA-Z
+print(string.ascii_lowercase) # -> a-z
+print(string.ascii_uppercase) # -> A-Z
+```
+
 # HxWのグリッド
 
 ## gridを取得する ※少なくともhが指定される
