@@ -58,6 +58,15 @@ stdinのEOFを検知して終了するため、CLI実行でキーボード入力
 ./input.py < input.txt
 ```
 
+* 要素数の決まってる2点の座標
+```
+n = int(input())
+p = [tuple(map(int, input().split())) for i in range(n)]
+```
+要素数nのtuple  
+別に2点じゃなくてもOK
+
+
 * 要素数の決まってる二次元配列（grid）
 ```
 grid = [list(input()) for i in range(h)]
