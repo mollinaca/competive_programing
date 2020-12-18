@@ -202,3 +202,23 @@ def grid_judge (y:int, x:int) -> bool:
 ```
 ※ grid はグローバル変数として扱う
 
+# bit全探索
+
+* bit-fullsearch
+```
+n = int(input())
+for i in range(2**n):
+    l = [0]*n
+    for j in range(n):
+        if ((i>>j)&1):
+            l[n-1-j] = 1
+
+    # 処理
+    # print (i,l)
+```
+n桁のbit列を全パターン列挙し、条件を満たすかどうか調査する  
+
+参考:  
+https://qiita.com/gogotealove/items/11f9e83218926211083a  
+https://qiita.com/conf8o/items/ba024813b9d9ce934d58  
+https://qiita.com/conf8o/items/548d0baaf505f9bee91f  
