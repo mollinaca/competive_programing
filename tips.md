@@ -34,17 +34,28 @@ l = input().split() # list
 l = list(map(int,input().split())) # list
 ```
 
-### 複数行
-
 * 1行で複数で個数が指定される文字列、数値
+```
+n,m = input().split()
+n,m = map(int,input().split())
+```
+ => 必要な変数の個数にアンパッキングして受け取る
 
 * 1行で複数で個数がわからない、list で受け取る文字列、数値
 ```
 l = input().split()
 l = list(map(int,input().split()))
 ```
+ => リストで可変長で受け取る
 
-* 何行か事前に分からない標準入力
+### 複数行
+
+* n行で入力される一要素をリストで受け取る
+l = [input() for x in range(n)]
+l = [int(input()) for x in range(n)]
+
+
+* 何行か事前に分からない標準入力(AOJででてくる、AtCoderでは見ない)
 ```
 import sys
 s = []
