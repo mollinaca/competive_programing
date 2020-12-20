@@ -57,10 +57,13 @@ https://atcoder.jp/contests/abc146/tasks/abc146_c
 ## bit全探索
 
 https://drken1215.hatenablog.com/entry/2019/12/14/171657  
+https://atcoder.jp/contests/abc002/tasks/abc002_4  
 https://atcoder.jp/contests/abc079/tasks/abc079_c  
 https://atcoder.jp/contests/abc104/tasks/abc104_c  
 https://atcoder.jp/contests/abc147/tasks/abc147_c  
+https://atcoder.jp/contests/abc167/tasks/abc167_c  
 https://atcoder.jp/contests/arc029/tasks/arc029_1  
+https://atcoder.jp/contests/arc061/tasks/arc061_a  
 
 ## 累積和
 
