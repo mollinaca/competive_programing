@@ -21,3 +21,4 @@ for i in range(2**m):
             ans_l.append(l[i])
 
 print (ans_l)
+  
