@@ -67,7 +67,6 @@ https://atcoder.jp/contests/arc029/tasks/arc029_1
 
 https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a  
 https://atcoder.jp/contests/abc037/tasks/abc037_c  
-https://atcoder.jp/contests/abc134/tasks/abc134_c  
 https://atcoder.jp/contests/abc177/tasks/abc177_c  
 
 ## いもす法
