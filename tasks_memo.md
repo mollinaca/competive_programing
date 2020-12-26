@@ -65,9 +65,23 @@ https://atcoder.jp/contests/arc029/tasks/arc029_1
 
 ## 累積和
 
+https://atcoder.jp/contests/ddcc2020-qual/tasks/ddcc2020_qual_b  
+https://atcoder.jp/contests/judge-update-202004/tasks/judge_update_202004_d  
 https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a  
+https://atcoder.jp/contests/tenka1-2019-beginner/tasks/tenka1_2019_c  
 https://atcoder.jp/contests/abc037/tasks/abc037_c  
+https://atcoder.jp/contests/abc089/tasks/abc089_d  
+https://atcoder.jp/contests/abc105/tasks/abc105_d  
+https://atcoder.jp/contests/abc124/tasks/abc124_d  
+https://atcoder.jp/contests/abc125/tasks/abc125_c  
+https://atcoder.jp/contests/abc129/tasks/abc129_d  
+https://atcoder.jp/contests/abc133/tasks/abc133_d  
 https://atcoder.jp/contests/abc177/tasks/abc177_c  
+https://atcoder.jp/contests/abc047/tasks/arc063_b  
+https://atcoder.jp/contests/abc062/tasks/arc074_b  
+https://atcoder.jp/contests/abc095/tasks/arc096_b  
+https://atcoder.jp/contests/arc098/tasks/arc098_a  
+
 
 ## いもす法
 
