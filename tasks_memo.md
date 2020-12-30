@@ -53,6 +53,7 @@ https://qiita.com/gh_takumi/items/a0b2f38e7ea53e73c1d5
 https://atcoder.jp/contests/abc077/tasks/arc084_a  
 https://atcoder.jp/contests/abc143/tasks/abc143_d  
 https://atcoder.jp/contests/abc146/tasks/abc146_c  
+https://atcoder.jp/contests/abc172/tasks/abc172_c  
 
 ## bit全探索
 
@@ -76,12 +77,12 @@ https://atcoder.jp/contests/abc124/tasks/abc124_d
 https://atcoder.jp/contests/abc125/tasks/abc125_c  
 https://atcoder.jp/contests/abc129/tasks/abc129_d  
 https://atcoder.jp/contests/abc133/tasks/abc133_d  
+https://atcoder.jp/contests/abc172/tasks/abc172_c  
 https://atcoder.jp/contests/abc177/tasks/abc177_c  
 https://atcoder.jp/contests/abc047/tasks/arc063_b  
 https://atcoder.jp/contests/abc062/tasks/arc074_b  
 https://atcoder.jp/contests/abc095/tasks/arc096_b  
 https://atcoder.jp/contests/arc098/tasks/arc098_a  
-
 
 ## いもす法
 
