@@ -14,6 +14,7 @@ for i in range(1,N+1):
 
 import operator
 l = sorted(l, key=operator.itemgetter('a','t'), reverse=True)
+print (l)
 
 ans = 0
 X = 0-a
