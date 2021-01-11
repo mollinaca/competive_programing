@@ -47,7 +47,7 @@ l = list(map(int,input().split()))
 ```
 l = [input() for x in range(n)]
 l = [int(input()) for x in range(n)]
-``
+```
 
 * 何行か事前に分からない標準入力(AOJででてくる、AtCoderでは見ない)
 ```
