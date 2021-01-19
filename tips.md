@@ -74,7 +74,8 @@ p = [tuple(map(int, input().split())) for i in range(n)]
 
 * 要素数の決まってる二次元配列（grid）
 ```
-grid = [list(input()) for i in range(h)]
+grid = [list(input()) for i in range(h)] # 文字列
+grid = [[int(s) for s in list(input())] for i in range(h)] # 数値
 ```
 高さh、幅は未定義
 
