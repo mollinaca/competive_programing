@@ -52,9 +52,9 @@ l = [int(input()) for x in range(n)]
 * 何行か事前に分からない標準入力(AOJででてくる、AtCoderでは見ない)
 ```
 import sys
-s = []
+S = []
 for line in sys.stdin:
-    s.append (list(line.rstrip()))
+    S.append (line.rstrip())
 ```
 
 stdinのEOFを検知して終了するため、CLI実行でキーボード入力だと入力の終了ができない（たぶん）。
