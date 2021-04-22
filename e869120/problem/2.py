@@ -30,3 +30,4 @@ for i in range(2**N):
             else:
                 print (')',end='')
         print ()
+# TLE
