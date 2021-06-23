@@ -23,7 +23,6 @@ for d in l:
     a = a - d['a']
     t = t + d['a'] + d['t']
     ans += 1
-    print (d['city'],a,t)
 
     if a < t:
         print (ans)

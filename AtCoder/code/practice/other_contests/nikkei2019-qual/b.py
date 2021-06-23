@@ -8,5 +8,4 @@ c = input()
 ans = 0
 for x,y,z in zip(a,b,c):
     ans += len(set([x,y,z]))-1
-
 print (ans)

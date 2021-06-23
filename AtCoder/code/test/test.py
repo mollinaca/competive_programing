@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import sys,os
-import numpy
-#import scipy
 
-print (numpy.version.version)
-print (sys.version_info)
-print ("ok")
+def t(x:int):
+    return x == 1
+
+n = int(input())
+print (t(n))

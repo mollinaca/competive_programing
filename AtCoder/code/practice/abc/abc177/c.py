@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import itertools
 n = int(input())
 A = list(map(int,input().split()))
 A_total = sum(A)
