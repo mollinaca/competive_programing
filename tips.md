@@ -173,6 +173,37 @@ d_sorted = sorted(d.items(), key=lambda x:x[1])
 ```
 1要素がタプルのリストになることに注意
 
+### dictが格納されたリストを複数のキーでソート
+
+https://yucatio.hatenablog.com/entry/2020/01/05/145417  
+
+```
+list1 = [
+    {'name': 'ぶどう',   'price': 5000, 'weight': 1000},
+    {'name': 'もも',     'price': 3000, 'weight': 2000},
+    {'name': 'りんご',   'price': 5000, 'weight': 5000},
+    {'name': 'バナナ',   'price': 1500, 'weight': 1000},
+    {'name': 'メロン',   'price': 5000, 'weight': 1200},
+    {'name': 'マンゴー', 'price': 10000, 'weight': 900},
+    {'name': 'みかん',  'price': 1500, 'weight': 5000},
+]
+```
+
+#### key に `itemgetter` を使用する
+
+```
+from operator import itemgetter
+sorted_list1 = sorted(list, key=itemgetter(第1キー, 第2キー, 第3キー))
+```
+
+#### lamda 関数を使用する
+
+```
+sorted_list = sorted(list1, key=lambda item: (item['price'] / item['weight'], item['price']))
+sorted_list2 = sorted(list1, key=lambda item: (item['price'] / item['weight'], item['price']))
+```
+
+
 ## 文字列の生成
 
 ```
